@@ -15,8 +15,6 @@ class NewsItemList extends Component {
         )
           .then(res => res.json())
           .then(newsItem => {
-            // console.log(newsItem);
-            // this.state.news.sort((a, b) => b.score - a.score);
             this.setState(prevState => ({
               news: [...prevState.news, newsItem]
             }));
@@ -28,7 +26,6 @@ class NewsItemList extends Component {
   render() {
     const newState = [...this.state.news];
     newState.sort((a, b) => b.score - a.score);
-    // const { news } = this.state;
 
     return (
       <div className="news-list">
