@@ -3,7 +3,7 @@ Hackernews clone for listing top news from a long way back.
 ## Way to run this web app
 
 ```
-git clone https://github.com/blzn50/hn-clone
+git clone https://github.com/blzn50/hackernoon-topnews
 cd hn-clone
 npm install
 npm start
