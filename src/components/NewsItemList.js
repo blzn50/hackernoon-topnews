@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import HN from '../utils/HN';
 
 class NewsItemList extends Component {
